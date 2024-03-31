@@ -15,6 +15,21 @@
                     <x-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-nav-link>
+                    <x-nav-link href="{{ route('booking') }}" :active="request()->routeIs('booking')">
+                        {{ __('Booking') }}
+                    </x-nav-link>
+                    <x-nav-link href="{{ route('flights') }}" :active="request()->routeIs('flights')">
+                        {{ __('Flights') }}
+                    </x-nav-link>
+                    <x-nav-link href="{{ route('map') }}" :active="request()->routeIs('map')">
+                        {{ __('Map') }}
+                    </x-nav-link>
+                    <x-nav-link href="{{ route('routes.index') }}" :active="request()->routeIs('routes.index')">
+                        {{ __('Routes') }}
+                    </x-nav-link>
+                    <x-nav-link href="{{ route('admin.settings') }}" :active="request()->routeIs('admin.settings')">
+                        {{ __('Admin Settings') }}
+                    </x-nav-link>
                 </div>
             </div>
 
