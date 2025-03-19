@@ -9,6 +9,8 @@
 
 ## About OpenVAMS
 
+### THIS PROJECT IS NOT FINISHED YET AND NOT IN A WORKING STATE! NONE OF THE LINKS BELOW ARE USABLE IT THIS TIME!
+
 Open Virtual Airline Management System (OpenVAMS) is an fully open source project that was build on top of the awesome [Laravel Web Framework](https://laravel.com) with the task of making an easily extensible Virtual Airline Manager that is User and Admin friendly. It comes packed with everything that a Virtual Airline needs, ranging from a booking interface, over an easy to use API for developers and it's very own ACARS software, [FlyACARS](https://github.com/Kejax/FlyACARS)
 
 - Great User Interface
